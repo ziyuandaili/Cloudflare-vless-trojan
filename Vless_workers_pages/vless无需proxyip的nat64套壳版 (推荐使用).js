@@ -143,7 +143,7 @@ export default {
 				}
 			});
 		}
-          默认:
+          default:
             // return new Response('Not found', { status: 404 });
             // For any other path, reverse proxy to 'ramdom website' and return the original response, caching it in the process
             if (cn_hostnames.includes('')) {
@@ -260,7 +260,7 @@ async function handle\u0076\u006c\u0065\u0073\u0073WebSocket(request) {
           }
           return num.toString(16).padStart(2, '0');
         });
-        const prefixes = ['2001:67c:2960:6464::']; //,'2a01:4f9:c010:3f02:64::'
+        const prefixes = ['2602:fc59:b0:64::']; //2001:67c:2960:6464::
         const chosenPrefix = prefixes[Math.floor(Math.random() * prefixes.length)];
         return `[${chosenPrefix}${hex[0]}${hex[1]}:${hex[2]}${hex[3]}]`;
       }
@@ -606,7 +606,7 @@ ${displayHtml}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.7.13</h1>
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.8.12</h1>
 	    <hr>
             <p>${noteshow}</p>
             <hr>
@@ -755,7 +755,7 @@ ${displayHtml}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.7.13</h1>
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.8.12</h1>
 			<hr>
             <p>${noteshow}</p>
             <hr>
